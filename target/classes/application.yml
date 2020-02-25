@@ -62,11 +62,11 @@ tables:
     tbl_chain_bill: groupID,billID
     tbl_chain_bill_detail: groupID,billDetailID
   basicMap:
-#    tbl_chain_goods: groupID,goodsID
-#    tbl_chain_costcard: groupID,cardID
-#    tbl_chain_costcard_detail: groupID,cardDetailID
-#    tbl_chain_costcard_relation_shop: groupID,relationID
-#    tbl_chain_distribution_goods: groupID,sgID
+    tbl_chain_goods: groupID,goodsID
+    tbl_chain_costcard: groupID,cardID
+    tbl_chain_costcard_detail: groupID,cardDetailID
+    tbl_chain_costcard_relation_shop: groupID,relationID
+    tbl_chain_distribution_goods: groupID,sgID
     tbl_chain_distribution_supplier: groupID,ssID
     tbl_chain_goods_category: groupID,categoryID
     tbl_chain_goods_unit: groupID,unitID

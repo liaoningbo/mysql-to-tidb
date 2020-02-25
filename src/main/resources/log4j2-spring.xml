@@ -6,9 +6,9 @@
 <configuration status="WARN" monitorInterval="30">
     <!-- 日志文件目录、压缩文件目录、日志格式配置 -->
     <properties>
-        <Property name="fileName">/home/logs/mysql-to-tidb/</Property>
-        <Property name="fileGz">/home/logs/mysql-to-tidb/7z</Property>
-        <Property name="LOG_PATTERN">[%X{traceID}] %highlight{%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{1.}:%L - %msg%n}{%throwable{short.fileName}}{FATAL=white,ERROR=red,WARN=blue, INFO=black, DEBUG=green, TRACE=blue}</Property>
+        <Property name="fileName">/home/mysql-to-tidb/logs</Property>
+        <Property name="fileGz">/home/mysql-to-tidb/logs/7z</Property>
+        <Property name="LOG_PATTERN">%highlight{%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{1.}:%L - %msg%n}{%throwable{short.fileName}}{FATAL=white,ERROR=red,WARN=blue, INFO=black, DEBUG=green, TRACE=blue}</Property>
         <Property name="COUNTER_PATTERN">%m%n</Property>
         <Property name="CLIENT_PATTERN">%m%n</Property>
     </properties>
