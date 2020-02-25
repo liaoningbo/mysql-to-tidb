@@ -1,0 +1,32 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.hualala.supplychain.mysqltotidb.config.MapConfig",
+      "name": "tables",
+      "type": "com.hualala.supplychain.mysqltotidb.config.MapConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.hualala.supplychain.mysqltotidb.config.MapConfig",
+      "name": "tables.basic-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.hualala.supplychain.mysqltotidb.config.MapConfig",
+      "name": "tables.bill-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.hualala.supplychain.mysqltotidb.config.MapConfig",
+      "name": "tables.shop-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "com.hualala.supplychain.mysqltotidb.config.MapConfig",
+      "name": "tables.voucher-map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    }
+  ]
+}

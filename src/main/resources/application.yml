@@ -1,0 +1,82 @@
+server:
+  port: 8901
+
+spring:
+  datasource:
+    #配置hikari连接池
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 100
+      connection-timeout: 10000
+      idle-timeout: 30000
+      connection-init-sql: set names utf8mb4
+    dynamic:
+      primary: mysql-bill
+      datasource:
+        tidb:
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://172.16.0.30:4000/db_supply_chain?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: root
+          password: root
+        mysql-bill:
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://dohko.mysql.003.master.hualala.com:3306/db_supply_chain_bill?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: supply_chain
+          password: utFTUgDi
+        mysql-stock:
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://dohko.mysql.003.master.hualala.com:3306/db_supply_chain_voucher?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: supply_chain
+          password: utFTUgDi
+        mysql-basic:
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://dohko.mysql.003.master.hualala.com:3306/db_supply_chain_basic?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: supply_chain
+          password: utFTUgDi
+        mysql-shop:
+          driver-class-name: com.mysql.jdbc.Driver
+          url: jdbc:mysql://dohko.mysql.001.master.hualala.com:3306/db_shop?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: hualala
+          password: hualala
+
+mybatis-plus:
+  mapper-locations: classpath:/mapping/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.hualala.supplychain.mysqltotidb.bean
+  global-config:
+    #驼峰下划线转换
+    db-column-underline: true
+    #刷新mapper 调试神器
+    refresh-mapper: true
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+
+logging:
+  level:
+    com.hualala.supplychain.tidbreport.mapper : debug
+
+tables:
+  billMap:
+    tbl_chain_bill: groupID,billID
+    tbl_chain_bill_detail: groupID,billDetailID
+  basicMap:
+    tbl_chain_goods: groupID,goodsID
+    tbl_chain_costcard: groupID,cardID
+    tbl_chain_costcard_detail: groupID,cardDetailID
+    tbl_chain_costcard_relation_shop: groupID,relationID
+    tbl_chain_distribution_goods: groupID,sgID
+    tbl_chain_distribution_supplier: groupID,ssID
+    tbl_chain_goods_category: groupID,categoryID
+    tbl_chain_goods_unit: groupID,unitID
+    tbl_chain_report_design: id
+    tbl_chain_report_voucher_type: id
+    tbl_chain_supplier: groupID,supplierID
+    tbl_chain_voucher_type: id
+  voucherMap:
+    tbl_chain_voucher_detail: groupID,detailID
+    tbl_chain_house_balance: groupID,balanceID
+    tbl_chain_voucher: groupID,voucherID
+  shopMap:
+    tbl_shop_org: orgID
+pageSize: 1000
