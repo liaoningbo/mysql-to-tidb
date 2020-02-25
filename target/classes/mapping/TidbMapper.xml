@@ -3,6 +3,15 @@
 <mapper namespace="com.hualala.supplychain.mysqltotidb.mapper.TidbMapper">
 
   <select id="insert">
-    ${sql}
+    REPLACE into ${tableName}
+    <foreach collection="keyList" item="item" index="item" open="(" close=")" separator=",">
+      ${item}
+    </foreach>
+    values
+    <foreach collection="valueList" item="subList" separator=",">
+        <foreach collection="subList" item="item" index="item" open="(" close=")" separator=",">
+          #{item}
+        </foreach>
+    </foreach>
   </select>
 </mapper>

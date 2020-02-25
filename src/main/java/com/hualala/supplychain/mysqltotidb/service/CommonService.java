@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -32,49 +33,47 @@ public class CommonService {
             }else{
                 return;
             }
-            String sql = getSql(subList, tableName, ids);
+
+            List<String> keyList = new ArrayList<>();
+            List<List<Object>> valueList = new ArrayList<>();
+
+            setKeyAndValue(subList, ids, keyList, valueList);
             Long t1 = System.currentTimeMillis();
-            tidbMapper.insert(sql);
+            tidbMapper.insert(keyList, valueList, tableName);
             Long t2 = System.currentTimeMillis();
             log.info("{}表新增{}条数据，耗时{}ms, {}表还剩{}条数据", tableName, subList.size(), t2 - t1, tableName, totalSize - (i*pageSize));
         }
     }
 
-    private String getSql(List<JSONObject> jsonObjectList, String tableName, String ids){
-        List<String> keyList = jsonObjectList.get(0).keySet().stream().map(a -> a.toString()).collect(Collectors.toList());
-        StringBuilder sql = new StringBuilder("insert into ");
-        sql.append(tableName);
+    private void setKeyAndValue(List<JSONObject> jsonObjectList, String ids,  List<String> keyList, List<List<Object>> valueList){
+        //setKey
         String[] idArr = ids.split(",");
-        if(idArr.length == 1){
-            sql.append("(");
-        }else{
-            sql.append("(id,");
+        if(idArr.length > 1){
+            keyList.add("id");
         }
-        for(String key : keyList){
-            sql.append(key+",");
-        }
-        sql.deleteCharAt(sql.length() - 1);
-        sql.append(") values ");
+        keyList.addAll(jsonObjectList.get(0).keySet().stream().map(a -> a.toString()).collect(Collectors.toList()));
+        //setValue
         for(JSONObject jsonObject : jsonObjectList){
+            List<Object> subList = new ArrayList<>();
+            int firstNum = 0;
             if(idArr.length > 1){
-                sql.append("('");
-                for(String id : ids.split(",")){
-                    sql.append(jsonObject.get(id)+"-");
+                StringBuilder idValue = new StringBuilder();
+                for(String id : idArr){
+                    idValue.append(jsonObject.get(id)+"-");
                 }
-                sql.deleteCharAt(sql.length() - 1);
-                sql.append("',");
-            }else{
-                sql.append("(");
+                idValue.deleteCharAt(idValue.length() - 1);
+                subList.add(idValue.toString());
+                firstNum = 1;
             }
-
-            for(String key : keyList){
-                sql.append("'" + jsonObject.get(key)+"',");
+            for(int i=firstNum; i<keyList.size(); i++){
+                String key = keyList.get(i);
+                if(jsonObject.containsKey(key)){
+                    subList.add(jsonObject.get(key));
+                }else{
+                    subList.add("");
+                }
             }
-            sql.deleteCharAt(sql.length() - 1);
-            sql.append("),");
+            valueList.add(subList);
         }
-        sql.deleteCharAt(sql.length() - 1);
-        sql.append(";");
-        return sql.toString();
     }
 }

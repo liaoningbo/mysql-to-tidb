@@ -3,9 +3,6 @@
 <mapper namespace="com.hualala.supplychain.mysqltotidb.mapper.ShopMapper">
 
   <select id="selectAll" resultType="com.alibaba.fastjson.JSONObject">
-    select * from ${tableName} order by
-    <foreach item="item" index="index" collection="ids.split(',')" open="" separator="," close="">
-      #{item}
-    </foreach>
+    select * from ${tableName}
   </select>
 </mapper>

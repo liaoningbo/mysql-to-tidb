@@ -5,16 +5,17 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Configuration;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 @Configuration
 @ConfigurationProperties(prefix = "tables")
 @EnableConfigurationProperties(MapConfig.class)
 public class MapConfig {
-    private Map<String, String> billMap = new HashMap<>();
-    private Map<String, String> basicMap = new HashMap<>();
-    private Map<String, String> voucherMap = new HashMap<>();
-    private Map<String, String> shopMap = new HashMap<>();
+    private Map<String, String> billMap = new LinkedHashMap<>();
+    private Map<String, String> basicMap = new LinkedHashMap<>();
+    private Map<String, String> voucherMap = new LinkedHashMap<>();
+    private Map<String, String> shopMap = new LinkedHashMap<>();
 
     public Map<String, String> getBillMap() {
         return billMap;
