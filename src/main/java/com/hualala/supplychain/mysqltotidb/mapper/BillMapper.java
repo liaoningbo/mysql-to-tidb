@@ -11,5 +11,7 @@ import java.util.List;
 @Component
 public interface BillMapper {
 
-    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids);
+    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids, @Param("pageNo") Integer pageNo, @Param("pageSize") Integer pageSize);
+
+    Long getCount(@Param("tableName") String tableName);
 }

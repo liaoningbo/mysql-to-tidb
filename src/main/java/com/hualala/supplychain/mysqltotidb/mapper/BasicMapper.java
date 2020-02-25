@@ -9,7 +9,9 @@ import java.util.List;
 
 @DS("mysql-basic")
 @Component
-public interface BasicMapper {
+public interface BasicMapper extends BaseInterface {
 
-    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids);
+    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids, @Param("pageNo") Integer pageNo, @Param("pageSize") Integer pageSize);
+
+    Long getCount(@Param("tableName") String tableName);
 }

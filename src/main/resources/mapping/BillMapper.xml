@@ -3,6 +3,13 @@
 <mapper namespace="com.hualala.supplychain.mysqltotidb.mapper.BillMapper">
 
   <select id="selectAll" resultType="com.alibaba.fastjson.JSONObject">
-    select * from ${tableName}
+    select * from ${tableName} order by
+    <foreach collection="ids.split(',')" separator="," item="item" index="item">
+      #{item}
+    </foreach>
+    limit #{pageNo}, #{pageSize}
+  </select>
+  <select id="getCount" resultType="java.lang.Long">
+    select count(1) from ${tableName}
   </select>
 </mapper>

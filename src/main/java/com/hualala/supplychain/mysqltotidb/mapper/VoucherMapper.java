@@ -10,5 +10,6 @@ import java.util.List;
 @Component
 @DS("mysql-stock")
 public interface VoucherMapper {
-    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids);
+    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids, @Param("pageNo") Integer pageNo, @Param("pageSize") Integer pageSize);
+    Long getCount(@Param("tableName") String tableName);
 }

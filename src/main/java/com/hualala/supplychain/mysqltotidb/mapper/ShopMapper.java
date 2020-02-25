@@ -10,5 +10,7 @@ import java.util.List;
 @DS("mysql-shop")
 @Component
 public interface ShopMapper {
-    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids);
+    List<JSONObject> selectAll(@Param("tableName") String tableName, @Param("ids") String ids, @Param("pageNo") Integer pageNo, @Param("pageSize") Integer pageSize);
+
+    Long getCount(@Param("tableName") String tableName);
 }

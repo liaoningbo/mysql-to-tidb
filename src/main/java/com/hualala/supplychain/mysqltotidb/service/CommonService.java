@@ -20,32 +20,14 @@ public class CommonService {
     @Value("${pageSize}")
     private Integer pageSize;
 
-    public void insert(List<JSONObject> jsonObjectList, String tableName, String ids) {
-        Integer totalSize = jsonObjectList.size();
-        int pageCount = jsonObjectList.size() / pageSize + (totalSize % pageSize > 0 ? 1 : 0);
-
-        for(int i=1; i <= pageCount; i++){
-            List<JSONObject> subList;
-            if (i == pageCount && totalSize % pageSize > 0) {
-                subList = jsonObjectList.subList((i - 1) * pageSize, totalSize);
-            } else if (i < pageCount) {
-                subList = jsonObjectList.subList((i - 1) * pageSize, i * pageSize);
-            }else{
-                return;
-            }
-
-            List<String> keyList = new ArrayList<>();
-            List<List<Object>> valueList = new ArrayList<>();
-
-            setKeyAndValue(subList, ids, keyList, valueList);
-            Long t1 = System.currentTimeMillis();
-            tidbMapper.insert(keyList, valueList, tableName);
-            Long t2 = System.currentTimeMillis();
-            log.info("{}表新增{}条数据，耗时{}ms, {}表还剩{}条数据", tableName, subList.size(), t2 - t1, tableName, totalSize - (i*pageSize));
-        }
+    public void insert(List<JSONObject> jsonObjectList, String tableName, List<String> keyList, List<List<Object>> valueList) {
+        Long t1 = System.currentTimeMillis();
+        tidbMapper.insert(keyList, valueList, tableName);
+        Long t2 = System.currentTimeMillis();
+        log.info("{}表新增{}条数据，耗时{}ms", tableName, jsonObjectList.size(), t2 - t1);
     }
 
-    private void setKeyAndValue(List<JSONObject> jsonObjectList, String ids,  List<String> keyList, List<List<Object>> valueList){
+    public void setKeyAndValue(List<JSONObject> jsonObjectList, String ids,  List<String> keyList, List<List<Object>> valueList){
         //setKey
         String[] idArr = ids.split(",");
         if(idArr.length > 1){
