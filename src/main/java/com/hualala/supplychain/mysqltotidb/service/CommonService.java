@@ -24,7 +24,7 @@ public class CommonService {
         Long t1 = System.currentTimeMillis();
         tidbMapper.insert(keyList, valueList, tableName);
         Long t2 = System.currentTimeMillis();
-        log.info("{}表新增{}条数据，耗时{}ms", tableName, jsonObjectList.size(), t2 - t1);
+        log.info("==================================================>>>>{}表新增{}条数据，耗时{}ms", tableName, jsonObjectList.size(), t2 - t1);
     }
 
     public void setKeyAndValue(List<JSONObject> jsonObjectList, String ids,  List<String> keyList, List<List<Object>> valueList){

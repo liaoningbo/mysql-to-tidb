@@ -26,7 +26,6 @@ public class BasicService {
         for(String tableName : basicMap.keySet()){
             log.info("{}表开始！！！", tableName);
             String ids = basicMap.get(tableName);
-            Long t1 = System.currentTimeMillis();
             //查询数据总量
             Long count = basicMapper.getCount(tableName);
             log.info("{}表总数据量{}", tableName, count);
@@ -34,6 +33,7 @@ public class BasicService {
             log.info("{}表总共分{}页，一页{}条数据", tableName, pageCount, pageSize);
             for(Integer pageNo=1; pageNo <= pageCount; pageNo++){
                 //查询数据
+                Long t1 = System.currentTimeMillis();
                 List<JSONObject> jsonObjectList = basicMapper.selectAll(tableName, ids, pageNo, pageSize);
                 Long t2 = System.currentTimeMillis();
                 log.info("查询{}表第{}页数据，耗时{}ms，数据量：{}，还剩{}页", tableName, pageNo, t2 - t1, jsonObjectList.size(), pageCount-pageNo);

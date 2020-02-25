@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a242807f-7af7-4eac-8fea-ef7571c0ebe9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BaseInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/BasicMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/BasicMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/BillMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/BillMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/ShopMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/ShopMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/VoucherMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/mapper/VoucherMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/BasicService.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/BasicService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/BillService.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/BillService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/CommonService.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/CommonService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/ShopService.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/ShopService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/VoucherService.class" afterPath="$PROJECT_DIR$/target/classes/com/hualala/supplychain/mysqltotidb/service/VoucherService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BasicMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BasicMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BillMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BillMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/ShopMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/ShopMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/VoucherMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/VoucherMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BasicService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BasicService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BillService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BillService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/CommonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/CommonService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/ShopService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/ShopService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/VoucherService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/VoucherService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/BasicMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/BasicMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/BillMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/BillMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/ShopMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ShopMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapping/VoucherMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapping/VoucherMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j2-spring.xml" afterPath="$PROJECT_DIR$/target/classes/log4j2-spring.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapping/BasicMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/BasicMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapping/BillMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/BillMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapping/ShopMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/ShopMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapping/VoucherMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapping/VoucherMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BasicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="43" column="84" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="43" selection-end-column="84" />
+            <state relative-caret-position="85">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BaseInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -56,8 +54,8 @@
       <file leaf-file-name="BillService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BillService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="42" column="84" lean-forward="false" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+            <state relative-caret-position="381">
+              <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,7 +66,7 @@
       <file leaf-file-name="CommonService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/CommonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="132">
               <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,8 +78,8 @@
       <file leaf-file-name="ShopService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/ShopService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="42" column="84" lean-forward="false" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+            <state relative-caret-position="225">
+              <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,23 +90,9 @@
       <file leaf-file-name="VoucherService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/VoucherService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="263">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VoucherMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/VoucherMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <marker date="1582622238336" expanded="true" signature="301:479" ph="select * fro... ${tableName}" />
-                <marker date="1582622238336" expanded="true" signature="301:480" ph="select * fro... ${tableName}" />
-                <marker date="1582622238336" expanded="true" signature="549:582" ph="select count... ${tableName}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicMapper.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasicMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/BasicMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
@@ -154,16 +138,6 @@
                 <marker date="1582622227981" expanded="true" signature="299:478" ph="select * fro... ${tableName}" />
                 <marker date="1582622227981" expanded="true" signature="548:581" ph="select count... ${tableName}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BasicMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -231,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/config/MapConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/TidbMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapping/TidbMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2-spring.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BillMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/ShopMapper.java" />
@@ -244,11 +217,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BaseInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BasicMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/CommonService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BasicService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BillService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/ShopService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/CommonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/VoucherService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BasicService.java" />
       </list>
     </option>
   </component>
@@ -497,7 +471,7 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kafka-to-tidb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scm-report" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
@@ -687,7 +661,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582524250069</updated>
       <workItem from="1582524251628" duration="25719000" />
-      <workItem from="1582603535300" duration="15493000" />
+      <workItem from="1582603535300" duration="17393000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1582552887046</created>
@@ -710,11 +684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1582613955845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="优化程序，查询是进行分页，一次直接插入一页数据。解决数据量太大导致的oom的问题">
+      <created>1582623271275</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582623271275</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41212000" />
+    <option name="totallyTimeSpent" value="43112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -730,7 +711,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
@@ -764,7 +745,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48527807" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48527807" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -775,8 +756,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -802,7 +783,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="优化程序，查询是进行分页，一次直接插入一页数据。解决数据量太大导致的oom的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化程序，查询是进行分页，一次直接插入一页数据。解决数据量太大导致的oom的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -983,14 +965,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="82" column="8" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/ShopMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1053,14 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BaseInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BasicMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1069,56 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BasicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="43" column="84" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="43" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="42" column="84" lean-forward="false" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="42" column="84" lean-forward="false" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/VoucherService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="43" column="33" lean-forward="false" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/CommonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/VoucherMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <marker date="1582622238336" expanded="true" signature="301:479" ph="select * fro... ${tableName}" />
             <marker date="1582622238336" expanded="true" signature="301:480" ph="select * fro... ${tableName}" />
@@ -1163,6 +1083,68 @@
             <marker date="1582622227981" expanded="true" signature="299:478" ph="select * fro... ${tableName}" />
             <marker date="1582622227981" expanded="true" signature="548:581" ph="select count... ${tableName}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BillService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/CommonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/VoucherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/mapper/BaseInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualala/supplychain/mysqltotidb/service/BasicService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
