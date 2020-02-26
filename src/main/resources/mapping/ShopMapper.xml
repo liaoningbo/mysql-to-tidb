@@ -5,7 +5,7 @@
   <select id="selectAll" resultType="com.alibaba.fastjson.JSONObject">
     select * from ${tableName} order by
     <foreach collection="ids.split(',')" separator="," item="item" index="item">
-      #{item}
+      ${item}
     </foreach>
     limit #{pageNo}, #{pageSize}
   </select>

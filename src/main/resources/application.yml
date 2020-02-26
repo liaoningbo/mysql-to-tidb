@@ -61,6 +61,7 @@ tables:
   billMap:
     tbl_chain_bill: groupID,billID
     tbl_chain_bill_detail: groupID,billDetailID
+    tbl_chain_item_ingredients: groupID,itemIngredientsID
   basicMap:
     tbl_chain_goods: groupID,goodsID
     tbl_chain_costcard: groupID,cardID
